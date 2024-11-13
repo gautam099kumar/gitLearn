@@ -1,0 +1,33 @@
+#Intially there are three main commands are use
+git init   
+git status
+git diff file name
+git add file name 
+git commit -m"Message inside it "
+git log
+
+
+# after that how to restage the changes are as follows
+git show HEAD
+git checkout HEAD file name
+git reset HEAD filename
+git reset -SH(7 digits of git repo )
+
+#steps for the sequences of chances are 
+1 create  a branch --->commit chances----> open pull request ------>merge request review ----->merge the code --->
+delete the branch if no longer useful
+#Commands use for all that things
+  
+git branch
+git branch name
+git checkout name 
+git merger nameofthebranch
+git branch  -d nameofthebranch 
+
+#git for remote
+git remote branch of the repitory name
+git remote -v
+git fetch
+git merge origin/master
+git new branch
+git pull origin branchname
